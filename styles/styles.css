@@ -32,7 +32,8 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0/ 0.2);    /* why use rgba instead of hex. */
+    border: 1px solid rgb(0 0 0/ 0.2);
+    /* why use rgba instead of hex. */
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -49,7 +50,7 @@ p {
 }
 
 footer {
-    margin-top: 15;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
