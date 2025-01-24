@@ -40,7 +40,7 @@ main {
 }
 
 aside h2 {
-    position: center;
+    position: absolute;
    }
 
 aside {
