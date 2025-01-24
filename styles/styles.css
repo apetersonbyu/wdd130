@@ -46,7 +46,7 @@ aside h2 {
 
 aside {
     width: 20rem;
-    margin: : 1rem;
+    margin: 1rem;
     border: 2px solid rgb(0 0 0/ 0.2);
     /* why use rgba instead of hex. */
     padding: 1rem;
