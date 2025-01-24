@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -11,28 +17,37 @@ nav a {
 
 h1 {
     color: darkblue;
+    padding: .5rem
 }
 
 main img {
     width: 150px;
     height: auto;
+    float: right;
+    margin: 0 0 2rem 2rem;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px grey;
 }
 
 p {
     padding: 10px;
+    margin: 3rem;
 }
 
 main {
     max-width: 840px;
 }
 
+aside h2 {
+    position: absolute;
+    
+}
+
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0/ 0.2);
+    margin: : 1rem;
+    border: 2px solid rgb(0 0 0/ 0.2);
     /* why use rgba instead of hex. */
     padding: 1rem;
     background-color: #eee;
@@ -41,16 +56,29 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 300px;
     height: auto;
 }
-
 p {
     padding: 0;
+    margin: rem;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    width: 60rem;
+    border: 1px solid rgb(0 0 0/ 0.1);
+    padding: 1rem;
+    background-color: rgb(0, 255, 217);
+    Color: #000;
+}
+.indent{
+    margin-left: 1rem;
 }
