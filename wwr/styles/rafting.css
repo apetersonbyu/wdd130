@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@100,400&display=swap"
 rel="stylesheet">
 https: //coolors.co/0f4157-ffce1f-1b769d-81d9da-e00000
@@ -6,12 +11,6 @@ secondary-color: #FFCE1F;
 accent1-color: #1B769D;
 accent2-color: #81D9DA;
 accent3-color: #E00000;
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body{
     font-family: "Roboto", serif;
