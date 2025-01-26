@@ -18,7 +18,7 @@ nav a {
 h1 {
     color: darkblue;
     padding: .5rem
-}
+    }
 
 main img {
     width: 150px;
@@ -80,4 +80,8 @@ footer {
 }
 .indent{
     margin: 1rem;
+}
+body{
+    font-family: "Roboto", serif;
+    font-weight: <400>;
 }
