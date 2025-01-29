@@ -11,10 +11,14 @@
 
 body {
     font-family: "Roboto", serif;
-    background-color: #0F4157;
-}
+   }
+
 main {
     max-width: 960px;
+}
+
+div{
+    padding: 30px;
 }
 .hero {
     position: relative;
@@ -43,7 +47,7 @@ h1 {
 
 article img {
     float: right;
-    width: 200px;
+    width: 100px;
     height: auto;
 }
 
