@@ -1,5 +1,12 @@
 :root {
-    background-color: #0F4157;
+    /* colors*/
+    --background-color: #0F4157;
+    --secondary-color: #FFCE1F;
+    --accent1-color: #1B769D;
+    --accent2-color: #81D9DA;
+    --accent3-red: #E00000;
+
+
 
 }
 
@@ -37,7 +44,7 @@ div {
 }
 
 h1 {
-    font-family: "Rock Salt", serif;
+    font-family: "Roboto", serif;
     color: #81d9da;
     position: absolute;
     top: 64px;
