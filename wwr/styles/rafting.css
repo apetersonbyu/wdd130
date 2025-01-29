@@ -1,44 +1,59 @@
+:root {
+    background-color: #0F4157;
 
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-https: //coolors.co/0f4157-ffce1f-1b769d-81d9da-e00000
-color:"primary-color: #0F4157;
-secondary-color: #FFCE1F;
-accent1-color: #1B769D;
-accent2-color: #81D9DA;
-accent3-color: #E00000;
-
-body{
+body {
     font-family: "Roboto", serif;
-    font-weight: <100>;
-    max-width: 840px;
+    background-color: #0F4157;
 }
-h1{
+main {
+    max-width: 960px;
+}
+.hero {
+    position: relative;
+}
+
+h1 {
+    font-family: "Rock Salt", serif;
+    background-color: #FFCE1F;
     position: absolute;
-    font-weight: <400>;
-    }
-article{
-    position: absolute;
-    background-color: #0F4157 ;
-}   
-.hero img{
-    display: block;
+    top: 50px;
+    left: 200px;
+}
+
+.hero img {
     width: 100%;
-    height:auto;
-}
-.class{
-    position: absolute;
-}
-section{
+    height: auto;
 
 }
-.sociallinks{
+
+.hero article {
+    background-color: #FFCE1F;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+article img {
+    float: right;
+    width: 200px;
+    height: auto;
+}
+
+.sociallinks {
     text-decoration: none;
+}
+
+/* CLass Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid #FFCE1F;
+
 }
