@@ -1,13 +1,10 @@
 :root {
     /* colors*/
-    --background-color: #0F4157;
+    background-color: #0F4157;
     --secondary-color: #FFCE1F;
     --accent1-color: #1B769D;
     --accent2-color: #81D9DA;
     --accent3-red: #E00000;
-
-
-
 }
 
 * {
