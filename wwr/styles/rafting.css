@@ -25,7 +25,7 @@ header {
     background-color: #ffce1f;
     padding: 2rem;
     display: flex;
-    justify-content: space;
+    justify-content: space-around;
 }
 
 nav {
