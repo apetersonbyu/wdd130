@@ -17,27 +17,34 @@ body {
     font-family: "Roboto", serif;
     padding: 20px;
 }
-
+header, main, footer{
+    max-width: 960px;
+    margin: 0 auto;
+}
 header {
     background-color: #ffce1f;
-    padding: 40px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space;
 }
 
 nav {
-    left: 200px;
+    display: flex;
 }
-
+nav a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
 main {
     max-width: 960px;
 }
 
-div {
-    float: left;
-    padding: 20px;
-}
-
 .hero {
     position: relative;
+    margin: 1rem;
+    
 }
 
 h1 {
@@ -45,7 +52,13 @@ h1 {
     color: #81d9da;
     position: absolute;
     top: 64px;
-    left: 39px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: black;
+    opacity: 0.7;
+    padding: 1rem;
+
 }
 
 .hero img {
@@ -56,29 +69,31 @@ h1 {
 .hero article {
     position: absolute;
     justify-content: left;
-    top: 150px;
-    left: 400px;
+    bottom: 55px;
+    left: 473px;
+    padding: 1rem;
+    background-color: #81d9da;
 }
 
-article img {
+.hero article img {
     float: right;
-    width: 10px;
+    width: 230px;
     height: auto;
-    padding: 20px;
+    margin: 1rem;
 }
 
 article p {
-    float: left;
 }
 
 h2 {
     font-family: "Roboto", serif;
-    font-weight: 900;
+    font-weight: 980;
 }
 
-section {
+section .adventure{
     padding: 35px;
     font-size: x-large;
+
 }
 
 .sociallinks {
