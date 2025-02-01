@@ -30,11 +30,13 @@ header {
     padding: 2rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+
 }
 
 nav {
     display: flex;
-}
+ }
 
 nav a {
     display: block;
