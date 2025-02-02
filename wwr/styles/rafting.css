@@ -188,3 +188,9 @@ ul style {
     width: 100%;
     height: auto;
 }
+
+.container .sociallinks {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-gap: 1rem padding: 1rem;
+}
