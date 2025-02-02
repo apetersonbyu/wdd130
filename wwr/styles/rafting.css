@@ -170,9 +170,9 @@ ul style {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    padding: 1rem;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    grid-gap: 50px;
+    padding: 10px;
 }
 
 .container figure {
