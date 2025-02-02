@@ -53,9 +53,7 @@ nav a {
     flex: 1 1 auto;
 }
 
-main {
-    
-}
+main {}
 
 .hero {
     position: relative;
@@ -137,23 +135,26 @@ section .adventure {
 }
 
 
-
 .sociallinks {
     display: flex;
-    justify-self: right;
-    text-decoration: none;
-    text-align: right;
+    align-content: horizontal;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
 }
 
 footer p {
     display: grid;
     align-items: baseline;
-   
+
 }
 
 
 
-ul style{
+ul style {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -167,7 +168,7 @@ ul style{
     border: 1px solid #FFCE1F;
 }
 
-.container { 
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
