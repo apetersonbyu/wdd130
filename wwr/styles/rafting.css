@@ -87,11 +87,11 @@ header img {
 
 .hero article {
     position: absolute;
-    bottom: 23px;
-    left: 497px;
-    padding: 1rem;
+    bottom: 100px;
+    left: 150px;
+    padding: 0.5rem;
     background-color: #81d9da;
-    width: 409px;
+    width: 750px;
 }
 
 .hero article img {
