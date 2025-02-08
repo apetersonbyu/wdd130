@@ -11,7 +11,7 @@
     <style>
         input[type="text"] {
             width: 100%;
-            padding:12px 20px;
+            padding: 12px 20px;
             margin: 2px 0;
             box-sizing: border-box;
         }
@@ -21,29 +21,50 @@
 <body>
     <header>Amy's Quiz | WDD130</header>
     <h1>HTML/CSS Quiz</h1>
+
     <form action="/action_page.php" method="post">
-        <fieldset>
-            <legend>Quiz</legend>
-            <label for="question1">1. What is the most used HTML form element?</label>
-            <input type="text" id="question1" name="question1">
-            <label for="question2">2. Name a Generic Font Family used in CSS?</label>
-            <input type="text" id="question2" name="question2">
-            <label for="question3">3. Select one way CSS can be added to HTML document.</label>
-            <select id="question3" name="question3" style="width: 100%;padding: 10px;">
-                <option value="" selected>Choose One ...</option>
-                <option value="option1">Outline</option>
-                <option value="option2">Inline</option>
-                <option value="option3">Styles</option>
-            </select>
-            <label for="question4">4. What is the name of the below HTML form attribute?</label>
-            <div style="background-color: black; color: white; padding: 5px;"> form action="/action_page.php"</div>
-            <input type="text" id="question4" name="question4">
-        </fieldset>
+        <p>1. What is the most used HTML form element?</p>
+        <textarea name="question1" rows="1" cols="50"></textarea>
+        <p>2. Name a Generic Font Family used in CSS?</p>
+        <textarea name="question2" rows="1" cols="50"></textarea>
+        <p>3. Select one way CSS can be added to HTML document.</p>
+        <select id="question3" name="question3" style="width: 100%;padding: 10px;">
+            <option value="" selected>Choose One ...</option>
+            <option value="option1">Outline</option>
+            <option value="option2">Inline</option>
+            <option value="option3">Styles</option>
+        </select>
+
+        <p>4. What is the name of the below HTML form attribute?</p>
+        <div style="background-color: black; color: white; padding: 5px;"> form action="/action_page.php"</div>
+        <textarea name="question4" rows="1" cols="50"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        <button>Submit Quiz</button>
+    </form>
+<!-- this is a comment
+    <fieldset>
+        <legend>Quiz</legend>
+        <label for="question1">1. What is the most used HTML form element?</label>
+        <input type="text" id="question1" name="question1">
+        <label for="question2">2. Name a Generic Font Family used in CSS?</label>
+        <input type="text" id="question2" name="question2">
+        <label for="question3">3. Select one way CSS can be added to HTML document.</label>
+        <select id="question3" name="question3" style="width: 100%;padding: 10px;">
+            <option value="" selected>Choose One ...</option>
+            <option value="option1">Outline</option>
+            <option value="option2">Inline</option>
+            <option value="option3">Styles</option>
+        </select>
+        <label for="question4">4. What is the name of the below HTML form attribute?</label>
+        <div style="background-color: black; color: white; padding: 5px;"> form action="/action_page.php"</div>
+        <input type="text" id="question4" name="question4">
+    </fieldset>
     </form>
 
 
     <button>Submit Quiz</button>
-
+-->
 
 </body>
 
