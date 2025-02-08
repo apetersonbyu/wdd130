@@ -54,7 +54,10 @@ div {
     max-width: 650px;
 }
 
-.quiz-item label {
+#q1 label,
+#q2 label,
+#q3 label,
+#q4 label {
     margin-right: 50px;
 }
 
