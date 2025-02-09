@@ -106,6 +106,14 @@ section .happyemployees {
     text-align: center;
 }
 
+form .radio {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    flex: 1 1 auto;
+}
+
 
 .sociallinks {
     display: flex;
