@@ -119,6 +119,16 @@ form .radio {
     flex: 1 1 auto;
 }
 
+button {
+    background-color: blue;
+    color: black;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    margin: 1rem;
+    border-radius: 10px;
+}
 
 .sociallinks {
     display: flex;
