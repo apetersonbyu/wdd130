@@ -29,30 +29,24 @@
     </header>
     <main>
         <section class="happyemployees">
-           
             <div class="container">
-
                 <figure class="questions">
                     <img src="images/happyemployees.webp" alt="wildride rapids">
                     <figcaption>General Questions</figcaption>
                 </figure>
-
-                <figure class="Website">
+                <figure class="Website"></figure>
                     <img src="images/business-8053374_1280.webp" alt="thriller rapids">
                     <figcaption>website support</figcaption>
                 </figure>
-
                 <figure class="experience">
                     <img src="images/happykayak.webp" alt="beach adventure">
                     <figcaption>Experience</figcaption>
                 </figure>
             </div>
         </section>
-
         <section>
             <section class="contact">
                 <h1 id="myHeader">Contact Us</h1>
-
                 <p>High Adventure Whitewater Rafting</p>
                 <p>465 Waterway Road</p>
                 <p>River City, ST 99999</p>
@@ -64,24 +58,22 @@
                         width="300" height="250" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-
-
             </section>
-
             <form action="/action_page.php" method="post">
-                <p>Username</p>
-                <textarea name="username" rows="1" cols="50"></textarea>
-
-                <p>email</p>
-                <textarea name="email" rows="1" cols="50"></textarea>
-
-                <p>purpose</p>
-                <input type=radio name="purpose">General Inquiry
-                <input type=radio name="purpose">Reservation Question
-                <input type=radio name="purpose">Website Suggestions
-
+                <p><label for="username">Username</label></p>
+                <textarea id="username" name="username" rows="1" cols="50"></textarea>
+                <p><label for="email">Email</label></p>
+                <textarea id="email" name="email" rows="1" cols="50"></textarea>
+                <p>Purpose</p>
+                <input type="radio" id="general" name="purpose" value="General Inquiry">
+                <label for="general">General Inquiry</label>
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="website" name="purpose" value="Website Suggestions">
+                <label for="website">Website Suggestions</label>
                 <p>Subscribe to our newsletter</p>
-                <input type="checkbox" name="newsletter" value="yes"> Please subscribe me to the monthly newsletter
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
                 <br><br>
                 <input type="submit" value="Submit">
             </form>
