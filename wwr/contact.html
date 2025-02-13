@@ -28,6 +28,18 @@
         </nav>
     </header>
     <main>
+        <form>
+            <Fieldset>
+                <legend> contact</legend>
+                <!--form elements will go here-->
+            </Fieldset>
+            <fieldset>
+                <legend>Questions in legend</legend>
+                <!-- form elements will go here-->
+            </fieldset>
+        </form>
+    </main>
+    <main>
         <section class="happyemployees">
 
             <div class="container">
@@ -66,34 +78,48 @@
 
 
             </section>
+            <div class="question air">
+                <form action="/action_page.php" method="post">
+                    <div>
+                        <legend>Username</legend>
+                        <input type="text" id="username" name="username" rows="1" cols="50">
+                    </div>
 
-            <form action="/action_page.php" method="post">
-                <p>Username</p>
-                <textarea name="username" rows="1" cols="50"></textarea>
-                <!--<label for="username">Username2</label>-->
-                <p>Email</p>
-                <textarea name="email" rows="1" cols="50"></textarea>
-                <!--<label for="email">Email</label>-->
-                <p>Message</p>
-                <textarea id="message" name="message" rows="1" cols="50"></textarea>
-                <!--<label for="message">Email</label>-->
-                <p>Purpose</p>
-                <input type="radio" id="generalInquiry" name="purpose" value="general Inquiry">
-                <label for="generalInquiry">General Inquiry</label><br>
-                <textarea name="general inquiry textarea" rows="1" cols="50"></textarea>
-                <!--<label for="html">General Inquiry</label><br>-->
-                <input type=radio id="html" name="purpose" value="reservation">
+                    <div>
+                        <legend>Email</legend>
+                        <input type="text" id="email" name="email" rows="1" cols="50"></textarea>
+                    </div>
 
-                <label for="html">Reservation Question</label><br>
-                <textarea name="reservation question textarea" rows="1" cols="50"></textarea>
-                <!--<input type=radio id="html" name="purpose" value="website suggestion">-->
-                <label for="html">Website Suggestions</label><br>
-                <textarea name="website suggestions textarea" rows="1" cols="50"></textarea>
-                <p>Subscribe to our newsletter</p>
-                <input type="checkbox" name="newsletter" value="yes"> 
+                    <div>
+                        <legend>Message</legend>
+                        <input type="text" id="message" name="message" rows="1" cols="50"></textarea>
+                    </div>
 
-                <button type="submit">Support Request</button>
-            </form>
+                    <div>
+                        <legend>General Inquiry</legend>
+                        <input type="radio" id="generalInquiry" name="purpose" value="general Inquiry">
+                        <textarea name="general inquiry message" rows="1" cols="50"></textarea>
+                    </div>
+
+                    <div>
+                        <legend>Reservation Question</legend>
+                        <input type=radio id="html" name="purpose" value="reservation">
+                        <textarea name="reservation questions message" rows="1" cols="50"></textarea>
+                    </div>
+
+                    <div>
+                        <legend>Website Suggestions</legend>
+                        <input type=radio id="html" name="purpose" value="website suggestion">
+                        <textarea name="website suggestions message" rows="1" cols="50"></textarea>
+                    </div>
+
+                    <div>
+                        <p>Subscribe to our newsletter</p>
+                        <input type="checkbox" name="newsletter" value="yes">
+                    </div>
+
+                    <button type="submit">Support Request</button>
+                </form>
         </section>
     </main>
     <!-- leave the footer on contact page-->
