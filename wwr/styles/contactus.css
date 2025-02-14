@@ -121,12 +121,13 @@ form {
 }
 
 button {
-    background-color: blue;
+    background-color: rgba(9, 9, 254, 0.732);
     border: none;
     padding: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
     max-width: 500px;
+    color: white;
 }
 
 .sociallinks {
