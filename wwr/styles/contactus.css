@@ -1,10 +1,13 @@
 :root {
-    /* colors - controls all*/
-    background-color: #219eb7;
+    /* colors*/
     --secondary-color: #FFCE1F;
     --accent1-color: #1B769D;
     --accent2-color: #81D9DA;
     --accent3-red: #E00000;
+}
+
+body {
+    background-color: #219eb7;
 }
 
 * {
@@ -39,7 +42,6 @@ header {
 
 }
 
-/*controls home about trips contact*/
 nav {
     display: flex;
     justify-content: flex-end;
@@ -54,85 +56,66 @@ nav a {
     flex: 1 1 auto;
 }
 
-/*div .class .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px;
-    font-size: x-large;
-    text-align: center;
-    flex-wrap: wrap;
-    width: 100%;
-}*/
 
 
+.contact {
+    text-align: right;
+    padding: 1rem;
+    opacity: 0.7;
+    padding: 1rem;
 
+}
 
-main div .class .container {
-    display: flex;
-    flex-direction: row;
+header img {
+    width: 150px;
+    height: auto;
+}
+
+section .happyemployees {
+    display: grid;
+    grid-template-columns: repeat(3fr, 1fr);
     justify-content: space-around;
-    align-items: center;
     padding: 35px;
     font-size: x-large;
     text-align: center;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
-.hero {
-    position: relative;
-    margin: 1rem;
+h2 {
+    font-family: "Roboto", serif;
+    font-weight: 980;
+    grid-column: 1/4;
+    text-align: center;
+    padding: 1rem;
 
 }
 
-section.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 20px;
-    margin: 50px;
-    text-align: left;
-    width: 100%;
-    height: 20px
-}
-h1{
-     
-    font-size: 2rem;
-    margin: 1rem;
+.adventure h2 {
+    font-family: "Roboto", serif;
+    font-weight: 980;
+    grid-column: 1/6;
+    padding: 1rem;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: flex-start;
-    padding: 20px;
-    margin: 30px;
-    height: 50%;
-
-}
-
-
-
-form .radio {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: start;
+    justify-items: start;
+    align-items: left;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
     padding: 1rem;
-    text-decoration: none;
-    font-size: 1.5rem;
-    flex: 1 1 auto;
+    margin-left: 3px;
 }
 
 button {
-    background-color: blue;
-    color: black;
+    background-color: #E00000;
+    border: none;
     padding: 1rem;
     font-size: 1.5rem;
-    border: none;
     cursor: pointer;
-    margin: 1rem;
-    border-radius: 10px;
+    max-width: 500px;
 }
 
 .sociallinks {
@@ -146,13 +129,6 @@ button {
 
 }
 
-.container .sociallinks {
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    padding: 1rem;
-}
-
 footer p {
     display: grid;
     align-items: baseline;
@@ -161,7 +137,7 @@ footer p {
 
 
 
-ul style {
+ul.style {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -182,33 +158,24 @@ ul style {
     padding: 10px;
 }
 
-form {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    margin-right: 1rem;
-}
-
-
-
 .container figure {
-    margin: 1rem;
+    margin: 2rem;
     padding: 1rem;
     border: 1px solid #FFCE1F;
     background-color: #1B769D;
     color: #FFCE1F;
     text-align: center;
-}
 
-section.contactus {
-    display: flex;
-    justify-content: flex-start;
-    height: 100%;
-    grid-template-rows: auto auto;
-    align-items: flex-start;
 }
 
 .container img {
     width: 100%;
     height: auto;
+}
+
+.container .sociallinks {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
 }

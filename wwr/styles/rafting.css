@@ -192,6 +192,6 @@ ul style {
 .container .sociallinks {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr;
-    grid-gap: 1rem; 
+    grid-gap: 1rem;
     padding: 1rem;
 }
