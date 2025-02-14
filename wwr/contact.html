@@ -66,65 +66,30 @@
         </section>
 
         <div class="question air"></div>
-        <!-- <form action="/action_page.php" method="post">
-            <fieldset>
-                <legend>Contact Support </legend>
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username"> 
-            </fieldset>
-
-            <fieldset>
-                <legend>Email</legend>
-                <input type="email" id="email" name="email">
-            </fieldset>
-
-            <fieldset>
-                <legend>Message</legend>
-                <input type="text" id="message" name="message">
-            </fieldset>
-
-            <fieldset>
-                <legend>General Inquiry</legend>
-                <input type="radio" id="generalInquiry" name="purpose" value="general Inquiry">
-                <textarea name="general inquiry message"></textarea>
-            </fieldset>
-
-            <fieldset>
-                <legend>Reservation Question</legend>
-                <input type="radio" id="reservation" name="purpose" value="reservation">
-                <textarea name="reservation questions message"></textarea>
-            </fieldset>
-
-            <fieldset>
-                <legend>Website Suggestions</legend>
-                <input type="radio" id="websiteSuggestion" name="purpose" value="website suggestion">
-                <textarea name="website suggestions message"></textarea>
-            </fieldset>
-
-            <div>
-                <p>Subscribe to our newsletter</p>
-                <input type="checkbox" name="newsletter" value="yes">
-            </div>
-
-            <button type="submit">Support Request</button>
-        </form>-->
         <form>
             <h2>Support Request</h2>
 
             <label for="username">Username</label>
             <input type="text" id="username" name="username" placeholder="enter username">
+
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="enter email">
-            <label>Message</label>
-            <input type="text" name="message" placeholder="enter message">
-            <label>General Inquiry</label>
-            <input type="radio" name="general inquiry">
-            <label>Reservation Question</label>
-            <input type="radio" name="reservation question">
-            <label>Website Suggestions</label>
-            <input type="radio" name="website suggestions">
-            <label>Subscribe to our newsletter</label>
-            <input type="checkbox" name="newsletter">
+
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message" placeholder="enter message">
+
+            <label for="generalinquiry">General Inquiry</label>
+            <input type="radio" id="generalinquiry" name="general inquiry">
+
+            <label for="reservation">Reservation Question</label>
+            <input type="radio" id="reservation" name="reservation question">
+
+            <label for="website">Website Suggestions</label>
+            <input type="radio" id="website" name="website suggestions">
+
+            <label for="subscribe">Subscribe to our newsletter</label>
+            <input type="checkbox" id="subscribe" name="newsletter">
+
             <button type="submit">Submit</button>
         </form>
     </main>
