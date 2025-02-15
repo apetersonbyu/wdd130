@@ -214,7 +214,7 @@ section .happyemployees {
     text-align: center;
 }
 
-/*ADDED JUSTIFY ITEMS AND GRID TEMPLATE TO FORM IN CONTACT US THEY ARE IN TWO SELECTORS*/
+/*added justify grid to form*/
 form {
     display: flex;
     flex-direction: column;
@@ -252,5 +252,15 @@ button {
     background-color: #1B769D;
     color: #FFCE1F;
     text-align: center;
+
+}
+
+.support {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: wrap;
+    grid-gap: 10px;
+    padding: 10px;
+    flex-direction: row-reverse;
 
 }
