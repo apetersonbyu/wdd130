@@ -5,7 +5,7 @@
     --accent2-color: #81D9DA;
     --accent3-red: #E00000;
 }
-
+/*maybe*/
 body {
     background-color: #219eb7;
 }
@@ -103,7 +103,7 @@ form {
     padding: 1rem;
     margin-left: 3px;
 }
-
+/*maybe*/
 nav a {
     display: block;
     padding: 1rem;
@@ -112,7 +112,7 @@ nav a {
     flex: 1 1 auto;
     color: inherit;
 }
-
+/*MOVED COMBINED WITH FORM*/
 form {
   
     justify-items: start;

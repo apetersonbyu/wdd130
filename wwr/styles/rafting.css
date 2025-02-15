@@ -45,15 +45,15 @@ nav {
     gap: 1rem;
 }
 
+/*MOVED COLOR INHERIT*/
 nav a {
     display: block;
     padding: 1rem;
     text-decoration: none;
     font-size: 1.5rem;
     flex: 1 1 auto;
+    color: inherit;
 }
-
-main {}
 
 .hero {
     position: relative;
@@ -184,6 +184,7 @@ ul style {
     text-align: center;
 }
 
+
 .container img {
     width: 100%;
     height: auto;
@@ -196,75 +197,12 @@ ul style {
     padding: 1rem;
 }
 
-:root {
-    /* colors*/
-    --secondary-color: #FFCE1F;
-    --accent1-color: #1B769D;
-    --accent2-color: #81D9DA;
-    --accent3-red: #E00000;
-}
-
-body {
-    background-color: #219eb7;
-}
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
-p {
-    padding: .5rem;
-}
-
-header,
-main,
-footer {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-body {
-    font-family: "Roboto", serif;
-    padding: 20px;
-}
-
-header {
-    background-color: #ffce1f;
-    padding: 1rem;
-    display: grid;
-    justify-content: space-around;
-    align-items: center;
-    grid-template-columns: 200px 1fr;
-
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-}
-
-nav a {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-    font-size: 1.5rem;
-    flex: 1 1 auto;
-}
-
-
-
+/*CONTACT US PAGE*/
 .contact {
     text-align: right;
     opacity: 0.7;
     padding: 1rem;
 
-}
-
-header img {
-    width: 150px;
-    height: auto;
 }
 
 section .happyemployees {
@@ -276,22 +214,7 @@ section .happyemployees {
     text-align: center;
 }
 
-h2 {
-    font-family: "Roboto", serif;
-    font-weight: 980;
-    grid-column: 1/4;
-    text-align: center;
-    padding: 1rem;
-
-}
-
-.adventure h2 {
-    font-family: "Roboto", serif;
-    font-weight: 980;
-    grid-column: 1/6;
-    padding: 1rem;
-}
-
+/*ADDED JUSTIFY ITEMS AND GRID TEMPLATE TO FORM IN CONTACT US THEY ARE IN TWO SELECTORS*/
 form {
     display: flex;
     flex-direction: column;
@@ -300,22 +223,8 @@ form {
     justify-items: start;
     padding: 1rem;
     margin-left: 3px;
-}
-
-nav a {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-    font-size: 1.5rem;
-    flex: 1 1 auto;
-    color: inherit;
-}
-
-form {
-
     justify-items: start;
     grid-template-columns: 1fr;
-
 }
 
 button {
@@ -328,39 +237,15 @@ button {
     color: white;
 }
 
-.sociallinks {
-    display: flex;
-    align-content: flex-start;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-
-}
-
-footer p {
-    display: grid;
-    align-items: baseline;
-
-}
-
-
-
-/* CLass Selectors */
-.box {
-    margin: 1rem;
-    border: 1px solid #FFCE1F;
-}
-
-.container {
+/*********added container alignment is not spaced with grid template columns conflicting with .container from rafting*/
+.container .happyemployees {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
     padding: 10px;
 }
 
-.container figure {
+.container .happyemployees figure {
     margin: 2rem;
     padding: 1rem;
     border: 1px solid #FFCE1F;
@@ -368,16 +253,4 @@ footer p {
     color: #FFCE1F;
     text-align: center;
 
-}
-
-.container img {
-    width: 100%;
-    height: auto;
-}
-
-.container .sociallinks {
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    padding: 1rem;
 }
