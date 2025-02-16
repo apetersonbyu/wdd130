@@ -143,12 +143,16 @@ section .adventure {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    
 
 }
+
 
 footer p {
     display: grid;
     align-items: baseline;
+    text-decoration: none;
 
 }
 
@@ -177,6 +181,7 @@ ul style {
 
 .container figure {
     margin: 1rem;
+    image-orientation: from-image;
     padding: 1rem;
     border: 1px solid #FFCE1F;
     background-color: #1B769D;
@@ -198,6 +203,20 @@ ul style {
 }
 
 /*CONTACT US PAGE*/
+/*********NEED h1 fixed**/
+h1 .contact{
+    font-family: "Roboto", serif;
+    color: #81d9da;
+    position: fixed;
+    top: 18px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: black;
+    opacity: 0.7;
+    padding: 1rem;
+
+}
 .contact {
     text-align: right;
     opacity: 0.7;
@@ -207,7 +226,7 @@ ul style {
 
 section .happyemployees {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     padding: 35px;
     font-size: x-large;
@@ -243,15 +262,19 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
 }
 
 .container .happyemployees figure {
     margin: 2rem;
-    padding: 1rem;
-    border: 1px solid #FFCE1F;
-    background-color: #1B769D;
-    color: #FFCE1F;
-    text-align: center;
+        padding: 1rem;
+        border: 1px solid #FFCE1F;
+        background-color: #1B769D;
+        color: #FFCE1F;
+        text-align: center;
+    
 
 }
 
@@ -263,4 +286,72 @@ button {
     padding: 10px;
     flex-direction: row-reverse;
 
+}
+
+/*INDEX PAGE*/
+.arch img {
+    width: 100%;
+    height: 400px;
+}
+section .story {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+
+}
+section .story img{
+    image-orientation: center;
+}
+
+/*TRIPS PAGE*/
+
+.excursion {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    gap: 1rem;
+}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+   
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+}
+
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+ .column1 img {
+     width: 100%;
+     height: 150px;
+ }
+ .column3 img {
+     width: 100%;
+     height: 150px;
+ }
+
+ .column1 img {
+    width: 100%;
+    height: 200px;
+}
+.column3 img {
+    width: 100%;
+    height: 200px;
 }

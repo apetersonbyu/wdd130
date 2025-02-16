@@ -29,26 +29,57 @@
     </header>
 
     <main>
-        <section class="happyemployees">
 
-            <div class="container">
-                <figure class="questions">
-                    <img src="images/happyemployees.webp" alt="wildride rapids">
-                    <figcaption>General Questions</figcaption>
-                </figure>
+        <div class="happyemployees">
+            <figure class="questions">
+                <img src="images/happyemployees.webp" alt="wildride rapids">
+                <figcaption>General Questions</figcaption>
+            </figure>
 
-                <figure class="Website">
-                    <img src="images/business-8053374_1280.webp" alt="thriller rapids">
-                    <figcaption>website support</figcaption>
-                </figure>
+            <figure class="Website">
+                <img src="images/business-8053374_1280.webp" alt="thriller rapids">
+                <figcaption>website support</figcaption>
+            </figure>
 
-                <figure class="experience">
-                    <img src="images/happykayak.webp" alt="beach adventure">
-                    <figcaption>Experience</figcaption>
-                </figure>
-            </div>
+            <figure class="experience">
+                <img src="images/happykayak.webp" alt="beach adventure">
+                <figcaption>Experience</figcaption>
+            </figure>
 
-        </section>
+
+        </div> <!-- Close the happyemployees div -->
+        <form>
+            <h2>Support Request</h2>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="enter username">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="enter email">
+
+            <label for="generalinquiry">General Inquiry</label>
+            <input type="radio" id="generalinquiry" name="general inquiry">
+            <!--<input type="text" name="message" placeholder="enter message">-->
+
+            <label for="reservation">Reservation Question</label>
+            <input type="radio" id="reservation" name="reservation question">
+            <!--<input type="text" name="message" placeholder="enter message">-->
+
+            <label for="website">Website Suggestions</label>
+            <input type="radio" id="website" name="website suggestions">
+
+            <label for="message">Message</label>
+            <!--<input type="text" name="message" placeholder="enter message">-->
+            <textarea name="message" id="message"></textarea><br>
+
+            <label for="subscribe">Subscribe to our newsletter</label>
+            <input type="checkbox" id="subscribe" name="newsletter">
+
+            <button type="submit">Submit</button>
+        </form>
+
+
+
         <div class="support">
             <section class="contact">
                 <h1 id="myHeader">Contact Us</h1>
@@ -58,47 +89,16 @@
                 <p>River City, ST 99999</p>
                 <p>Phone: 999-999-9999</p>
                 <p>Email: <a href="mailto:hawr@contactus.com"></a></p>
-                <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6280.893005797552!2d-107.70502849733985!3d38.08326949740417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1739073855348!5m2!1sen!2sus"
-                        width="300" height="250" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
-
-            <div class="question air"></div>
-            <form>
-                <h2>Support Request</h2>
-
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" placeholder="enter username">
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="enter email">
-
-                <label for="generalinquiry">General Inquiry</label>
-                <input type="radio" id="generalinquiry" name="general inquiry">
-                <!--<input type="text" name="message" placeholder="enter message">-->
-
-                <label for="reservation">Reservation Question</label>
-                <input type="radio" id="reservation" name="reservation question">
-                <!--<input type="text" name="message" placeholder="enter message">-->
-
-                <label for="website">Website Suggestions</label>
-                <input type="radio" id="website" name="website suggestions">
-
-                <label for="message">Message</label>
-                <!--<input type="text" name="message" placeholder="enter message">-->
-                <textarea name="message" id="message"></textarea><br>
-
-                <label for="subscribe">Subscribe to our newsletter</label>
-                <input type="checkbox" id="subscribe" name="newsletter">
-
-                <button type="submit">Submit</button>
-            </form>
-
-
+            </section> <!-- Close the contact section -->
+            <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6280.893005797552!2d-107.70502849733985!3d38.08326949740417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1739073855348!5m2!1sen!2sus"
+                width="300" height="250" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        </div> <!-- Close the map div -->
+        <!-- Close the support section -->
+
     </main>
     <!-- leave the footer on contact page-->
     <footer>
