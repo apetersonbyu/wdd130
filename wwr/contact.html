@@ -16,10 +16,10 @@
 </head>
 
 <body>
-    <!-- leave the header on contact page-->
+
     <header>
         <img src="images/z-raftingcompas.webp" alt="Rafting Logo">
-        <!-- leave the nav on contact page-->
+
         <nav>
             <a href="home.html">Home</a>
             <a href="about.html">About Us</a>
@@ -28,7 +28,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="contactmain">
 
         <div class="happyemployees">
             <figure class="questions">
@@ -47,7 +47,7 @@
             </figure>
 
 
-        </div> <!-- Close the happyemployees div -->
+        </div>
         <form>
             <h2>Support Request</h2>
 
@@ -59,17 +59,14 @@
 
             <label for="generalinquiry">General Inquiry</label>
             <input type="radio" id="generalinquiry" name="general inquiry">
-            <!--<input type="text" name="message" placeholder="enter message">-->
 
             <label for="reservation">Reservation Question</label>
             <input type="radio" id="reservation" name="reservation question">
-            <!--<input type="text" name="message" placeholder="enter message">-->
 
             <label for="website">Website Suggestions</label>
             <input type="radio" id="website" name="website suggestions">
 
             <label for="message">Message</label>
-            <!--<input type="text" name="message" placeholder="enter message">-->
             <textarea name="message" id="message"></textarea><br>
 
             <label for="subscribe">Subscribe to our newsletter</label>
@@ -82,29 +79,32 @@
 
         <div class="support">
             <section class="contact">
-                <h1 id="myHeader">Contact Us</h1>
+                <h3 id="myheader">Contact Us</h3>
+            </section>
+            <div class="cu">
 
                 <p>High Adventure Whitewater Rafting</p>
                 <p>465 Waterway Road</p>
                 <p>River City, ST 99999</p>
                 <p>Phone: 999-999-9999</p>
                 <p>Email: <a href="mailto:hawr@contactus.com"></a></p>
-            </section> <!-- Close the contact section -->
+            </div>
+
             <div class="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6280.893005797552!2d-107.70502849733985!3d38.08326949740417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1739073855348!5m2!1sen!2sus"
-                width="300" height="250" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6280.893005797552!2d-107.70502849733985!3d38.08326949740417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1739073855348!5m2!1sen!2sus"
+                    width="300" height="250" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </div>
-        </div> <!-- Close the map div -->
-        <!-- Close the support section -->
 
     </main>
-    <!-- leave the footer on contact page-->
-    <footer>
-        <form id="contactForm" action="/action_page.php" method="post"></form>
-        <nav class="sociallinks">
+    <footer id="footer">
 
+        <form id="contactForm" action="/action_page.php" method="post"></form>
+        <div class="sociallinks">
+            <p>©️2025 - High Adventure Water Rafting - Amy Peterson</p>
             <ul>
                 <li><a href="https://facebook.com" target="_blank">
                         <img src="images/2018_social_media_popular_app_logo_facebook-128.webp"
@@ -113,13 +113,16 @@
                         <img src="images/1_Instagram_colored_svg_1-128.webp" alt="noopener noreferrer"></a></li>
                 <li><a href="https://twitter.com" target="_blank" rel="twitter">
                         <img src="images/2018_social_media_popular_app_logo_twitter-128.webp"
-                            alt="noopener noreferrer"></a></li>
+                            alt="noopener noreferrer"></a>
+                </li>
             </ul>
-        </nav>
+        </div>
         <a href="https://app.moqups.com/YURO7RmmRrC6jy1RWIZAbniGHvREQ1kh/view/page/ad64222d5" target="_blank">Link to
             Moqup Prototype</a>
-        <p>©️2025 - High Adventure Water Rafting - Amy Peterson</p>
     </footer>
+
+
+
 </body>
 
 </html>

@@ -1,9 +1,9 @@
 :root {
     /* colors*/
-    background-color: #219eb7;
-    --secondary-color: #FFCE1F;
-    --accent1-color: #1B769D;
-    --accent2-color: #81D9DA;
+    background-color: #14bcc8;
+    --secondary-color: #fbff1f;
+    --accent1-color: #1b359d;
+    --accent2-color: #06074b;
     --accent3-red: #E00000;
 }
 
@@ -61,6 +61,7 @@ nav a {
 
 }
 
+/*About H1*/
 h1 {
     font-family: "Roboto", serif;
     color: #81d9da;
@@ -87,11 +88,12 @@ header img {
 
 .hero article {
     position: absolute;
-    bottom: 100px;
+    bottom: 10px;
     left: 150px;
     padding: 0.5rem;
     background-color: #81d9da;
     width: 750px;
+
 }
 
 .hero article img {
@@ -125,7 +127,7 @@ section.history {
     padding: 1rem;
 }
 
-section .adventure {
+.adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: space-around;
@@ -136,37 +138,47 @@ section .adventure {
 
 
 .sociallinks {
-    display: flex;
-    align-content: flex-start;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
     text-decoration: none;
-    
+    padding-top: 20px;
+    padding-left: 0;
+    padding-bottom: 5px;
+    display: flex;
+
+    justify-content: space-around;
+    grid-template-rows: 2fr 1fr;
+    height: 55px;
+    grid-gap: 16px;
+}
+
+
+
+.sociallinks ul li {
+    list-style: none;
+    display: inline-block;
 
 }
 
+.sociallinks li a {
+    width: 15px;
+    height: 15px;
+
+}
+
+footer img {
+    width: 50%
+}
 
 footer p {
+
     display: grid;
     align-items: baseline;
-    text-decoration: none;
+    align-content: flex-start;
+
 
 }
 
 
 
-ul style {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-/* CLass Selectors */
 .box {
     margin: 1rem;
     border: 1px solid #FFCE1F;
@@ -183,9 +195,9 @@ ul style {
     margin: 1rem;
     image-orientation: from-image;
     padding: 1rem;
-    border: 1px solid #FFCE1F;
-    background-color: #1B769D;
-    color: #FFCE1F;
+    border: 1px solid #e5ff1f;
+    background-color: #1b359d;
+    color: #e5ff1f;
     text-align: center;
 }
 
@@ -195,45 +207,60 @@ ul style {
     height: auto;
 }
 
-.container .sociallinks {
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    padding: 1rem;
-}
+
+
 
 /*CONTACT US PAGE*/
-/*********NEED h1 fixed**/
-h1 .contact{
+.contactmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+}
+
+.support {
     font-family: "Roboto", serif;
-    color: #81d9da;
-    position: fixed;
+    color: #06074b;
     top: 18px;
     left: 0;
     right: 0;
     text-align: center;
-    background-color: black;
     opacity: 0.7;
+    padding: 1rem;
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+}
+
+.cu {
+    text-align: left;
+    color: black;
+    font-size: large;
     padding: 1rem;
 
 }
-.contact {
-    text-align: right;
-    opacity: 0.7;
-    padding: 1rem;
 
+.contact h3#myheader {
+    display: block;
+    text-align: left;
+    color: black;
 }
+
 
 section .happyemployees {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 35px;
     font-size: x-large;
     text-align: center;
+    grid-column: span 2;
+    grid-row: 1/2;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
-/*added justify grid to form*/
 form {
     display: flex;
     flex-direction: column;
@@ -244,6 +271,7 @@ form {
     margin-left: 3px;
     justify-items: start;
     grid-template-columns: 1fr;
+    grid-row: 2/3;
 }
 
 button {
@@ -256,8 +284,7 @@ button {
     color: white;
 }
 
-/*********added container alignment is not spaced with grid template columns conflicting with .container from rafting*/
-.container .happyemployees {
+.happyemployees {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
@@ -267,56 +294,68 @@ button {
     grid-gap: 1rem;
 }
 
+.happyemployees img {
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+    align-content: center;
+}
+
 .container .happyemployees figure {
     margin: 2rem;
-        padding: 1rem;
-        border: 1px solid #FFCE1F;
-        background-color: #1B769D;
-        color: #FFCE1F;
-        text-align: center;
-    
+    padding: 1rem;
+    border: 1px solid#e5ff1f;
+    background-color: #1B769D;
+    color: #e5ff1f;
+    text-align: center;
+
 
 }
 
-.support {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column: wrap;
-    grid-gap: 10px;
-    padding: 10px;
-    flex-direction: row-reverse;
-
-}
 
 /*INDEX PAGE*/
 .arch img {
     width: 100%;
     height: 400px;
 }
-section .story {
-    display: grid;
-    grid-template-columns: 1fr 200px 1fr;
 
-}
-section .story img{
-    image-orientation: center;
+
+
+section.story img {
+    align-content: center;
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
 }
 
 /*TRIPS PAGE*/
+.trips h1 {
+    font-family: "Roboto", serif;
+    color: #81d9da;
+    top: 200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 60px;
+}
 
 .excursion {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
     gap: 1rem;
+
 }
+
 
 .column1 {
     float: left;
     width: 33.33%;
     padding: 10px;
     height: 300px;
-   
+    margin-top: 140px;
+
 }
 
 .column2 {
@@ -325,6 +364,7 @@ section .story img{
     padding: 10px;
     height: 300px;
     text-align: center;
+    margin-top: 140px;
 }
 
 .column3 {
@@ -332,25 +372,30 @@ section .story img{
     width: 33.33%;
     padding: 10px;
     height: 300px;
+    margin-top: 140px;
 }
- .row:after {
-     content: "";
-     display: table;
-     clear: both;
- }
- .column1 img {
-     width: 100%;
-     height: 150px;
- }
- .column3 img {
-     width: 100%;
-     height: 150px;
- }
 
- .column1 img {
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column1 img {
+    width: 100%;
+    height: 150px;
+}
+
+.column3 img {
+    width: 100%;
+    height: 150px;
+}
+
+.column1 img {
     width: 100%;
     height: 200px;
 }
+
 .column3 img {
     width: 100%;
     height: 200px;
